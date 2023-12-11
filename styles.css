@@ -1,0 +1,307 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+
+
+nav  .onglet{
+    display: flex;
+    margin-left: 15px;
+}
+
+nav  .onglet a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .onglet p{
+    margin-left: 15px;
+   
+}
+
+nav .onglet .ong{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+nav  .onglet a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s ease;
+}
+
+nav  .loop img{
+    margin-right: 35px;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+header .images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+header .images img{
+    margin-top: 65px;
+    width: 1400px;
+}
+
+main section .conteneur .sous-conteneur1{
+    margin-top: 80px;
+    text-align: center;
+}
+
+main section .conteneur .sous-conteneur1 h4{
+    color: grey;
+    font-size: 18px;
+}
+
+main section .conteneur .sous-conteneur1 p{
+    padding-left: 270px;
+    padding-right: 270px;
+    text-align: justify;
+    color: black;
+    font-size: 19px;
+
+}
+
+main section .conteneur .sous-conteneur2{
+    display: flex;
+    justify-content: center;
+}
+
+main section .conteneur .sous-conteneur2 .photo1{
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+main section .conteneur2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+
+main section .conteneur2 .titre h1{
+    color: white;
+    text-align: center;
+}
+
+main section .conteneur2 .titre h4{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+
+main section .conteneur2 .tableau{
+    color: white;
+    margin-bottom: 25px;
+}
+
+main section .conteneur2 .tableau .ligne1{
+    border: 1px solid black;
+    margin-left: 25px;
+    background-color: white;
+}
+
+main section .conteneur2 .tableau p{
+    color: grey;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+main section .conteneur2 .tableau .sold{
+    color: white;
+    font-size: 15px;
+    
+    padding: 5px;
+    background-color: red;
+    margin-right: 550px;
+}
+
+main section .conteneur2 .tableau .trois{
+    color: white;
+    padding: 7px 12px;
+    background:black;
+    border-radius: 50%;
+    margin-left: 560px;
+
+}
+
+main section .conteneur2 .voyage .pays{
+    color: black;
+    background-color: white;
+    margin-right: 25px;
+    margin-right: ;
+}
+
+main section .conteneur2 .voyage{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 45px;
+  
+}
+
+main section .conteneur2 .voyage .pays .texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section .conteneur2 .voyage .pays .texte a{
+    text-decoration: none;
+}
+
+main section .conteneur2 .voyage .pays .texte h6{
+    color: black;
+    font-size: 19px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+ 
+}
+
+main section .conteneur2 .voyage .pays .texte h6:hover{
+    background-color: #d0ece7;
+    transition: 1s ease;
+    color: black;
+}
+
+
+main section .conteneur2 .voyage .pays .texte h1{
+    font-size: 25px;
+}
+
+
+
+
+main section .conteneur3 .titre{
+    text-align: center;
+}
+
+main section .conteneur3 .titre h1{
+ font-size: 2em;
+}
+
+main section .conteneur3 .titre h4{
+    color: gray;
+    font-size: 18px;
+}
+
+main section .conteneur3 .conteneur .information .ligne{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-top: -19px;
+  
+}
+
+main section .conteneur3 .conteneur .information{
+    margin-right: 20px;
+}
+
+main section .conteneur3 .conteneur .information .ligne img{
+    margin-right: 10px;
+    width: 20px;
+    height: 18px;
+}
+
+main section .conteneur3 .conteneur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -35px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+main section .conteneur3 .conteneur .formulaire .ligne{
+    margin-bottom: 7px;
+}
+
+
+main section .conteneur3 .conteneur .formulaire{
+    margin-left: 100px;
+}
+main section .conteneur3 .conteneur .formulaire .ligne .name{
+    margin-right: 5px;
+}
+
+main section .conteneur3 .conteneur .formulaire button{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    margin-left: 300px;
+}
+
+main section .conteneur3 .conteneur .formulaire button:hover{
+    background-color: grey;
+    color: black;
+    transition: 1s ease;
+}
+
+article img{
+    width: 2050px;
+ margin-bottom: 25px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+footer img{
+    margin-right: 5px;
+}
+
+
+footer a{
+    text-decoration: none;
+    border-bottom: 2px solid green;
+    color: green;
+
+}
+
+footer a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+    transition: 1.5s ease;
+}
+
+footer h3{
+    color: grey;
+}
+
+footer .icons{
+    margin-bottom: 25px;
+    margin-right: -12px;
+}
